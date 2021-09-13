@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar.js'
+import Carrousel from './components/NavBar/Carrousel.js';
 
 
 const App = ()  => {
@@ -9,9 +10,11 @@ const App = ()  => {
     
     <div className="App">
       <NavBar/>
+      {/* <Carrousel/> */}
 
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Carrousel/>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
