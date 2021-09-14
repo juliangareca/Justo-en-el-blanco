@@ -1,3 +1,6 @@
+import carrito from './cart4.svg'
+
+
 const NavBar = () =>{
 
     return  <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -17,6 +20,9 @@ const NavBar = () =>{
           <li className="nav-item">
             <a className="nav-link" href="../toallas.html">Toallas</a>
           </li>
+          <button type="button" class="btn">
+            <img src={carrito}/> <span class="badge bg-secondary">0</span>
+          </button>
         </ul>
       </div>
     </div>

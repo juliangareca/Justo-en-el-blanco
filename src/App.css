@@ -57,10 +57,6 @@ ul{
   align-self: flex-end;
 }
 
-ul ul {
-position: absolute;
-display: none;
-}
 
 li{
   color: black;

@@ -1,33 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar.js'
-import Carrousel from './components/NavBar/Carrousel.js';
-
+import Carrousel from './components/Carrousel/Carrousel.js';
+import ItemListContainer from './components/ItemList';
 
 const App = ()  => {
   return (
 
     
-    <div className="App">
-      <NavBar/>
-      {/* <Carrousel/> */}
 
-      <header className="App-header">
-        <Carrousel/>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        {/* <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
+    <div className="App">
+    
+      <header >
+
+        <NavBar/>
+
       </header>
+
+      <div className="App-header">
+
+        <ItemListContainer greetings="¡Bienvenidos a Justo en el Blanco!"/>
+
+        <Carrousel/>
+
+      </div>
     </div>
+
   );
 }
 
