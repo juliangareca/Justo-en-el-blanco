@@ -21,7 +21,7 @@ const NavBar = () =>{
             <a className="nav-link" href="../toallas.html">Toallas</a>
           </li>
           <button type="button" class="btn">
-            <img src={carrito}/> <span class="badge bg-secondary">0</span>
+            <img src={carrito}/> <button class="badge bg-secondary">0</button>
           </button>
         </ul>
       </div>
