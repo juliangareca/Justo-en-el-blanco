@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -75,6 +74,7 @@ li{
 .cardText{
   color: black;
   margin-top: 1rem;
+  
 }
 
 .btnMargin{
@@ -86,4 +86,10 @@ li{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.cardText {
+  color: black;
+  margin-top: 1rem;
+  
 }
