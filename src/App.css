@@ -72,3 +72,18 @@ li{
   height: 40rem;
 }
 
+.cardText{
+  color: black;
+  margin-top: 1rem;
+}
+
+.btnMargin{
+  margin-right: 10px;
+}
+
+.btnDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

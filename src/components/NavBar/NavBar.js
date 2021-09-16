@@ -1,5 +1,4 @@
-import carrito from './cart4.svg'
-
+import BtnCarrito from '../Btn/BtnCarrito';
 
 const NavBar = () =>{
 
@@ -20,9 +19,7 @@ const NavBar = () =>{
           <li className="nav-item">
             <a className="nav-link" href="../toallas.html">Toallas</a>
           </li>
-          <button type="button" class="btn">
-            <img src={carrito}/> <button class="badge bg-secondary">0</button>
-          </button>
+            <BtnCarrito/>
         </ul>
       </div>
     </div>

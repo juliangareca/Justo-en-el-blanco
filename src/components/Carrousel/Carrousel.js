@@ -11,10 +11,10 @@ return <div id="carouselExampleInterval" className="carousel slide" data-bs-ride
                 <div className="carousel-item active" data-bs-interval="4000">
                 <img src={frazada} className="d-block w-100 imgCarrousel" alt="frazadas"/>
                 </div>
-                <div className="carousel-item" data-bs-interval="2000">
+                <div className="carousel-item" data-bs-interval="4000">
                 <img src={sabana} className="d-block w-100 imgCarrousel" alt="sabanas"/>
                 </div>
-                <div className="carousel-item" data-bs-interval="2000">
+                <div className="carousel-item" data-bs-interval="4000">
                 <img src={toalla} className="d-block w-100 imgCarrousel" alt="toallas"/>
                 </div>
             </div>
