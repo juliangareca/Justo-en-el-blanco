@@ -22,7 +22,7 @@ const App = ()  => {
       <div className="App-header">
 
 
-        {/* <Carrousel/> */}
+        <Carrousel/>
         <ItemListContainer />
       </div>
     </div>
