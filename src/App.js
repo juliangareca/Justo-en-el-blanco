@@ -1,8 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar.js'
 import Carrousel from './components/Carrousel/Carrousel.js';
-import ItemListContainer from './components/ItemList';
-import Card from './components/Cards/Card';
+import ItemListContainer from './components/ItemListContainer';
 // import { render } from 'react-dom';
 // import { useState } from 'react';
 
@@ -22,15 +21,15 @@ const App = ()  => {
 
       <div className="App-header">
 
-        <ItemListContainer greetings="¡Bienvenidos a Justo en el Blanco!"/>
 
-        <Carrousel/>
-        <Card/>
-
+        {/* <Carrousel/> */}
+        <ItemListContainer />
       </div>
     </div>
 
   );
 }
+
+
 
 export default App;
